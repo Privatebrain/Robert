@@ -1,0 +1,106 @@
+body{
+    background-color: aliceblue;
+    
+    background-size: cover;
+    color:black solid;
+    
+    font-family:serif;
+    font-size: 18px;
+    
+    font-weight: normal;
+    line-height: 1.5em;
+    
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.box-1 h1{
+    background-image: url(img/bgphoto.jpg);
+    color: whitesmoke;
+    text-align: center;
+   
+    border-top: 2px red solid;
+    border-right: 2px red solid;
+    border-bottom: 2px red solid;
+    border-left: 2px red solid;
+   
+}
+.box-1 p{
+    font-size: 20px;
+    line-height: normal;
+    font-weight:400;
+    color: darkgrey;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color:blue;
+}
+.Categories{
+    border: 1px white solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.Categories ul{
+    border:0px;
+    padding-left: 20px;
+    
+    
+}
+.Categories li{
+    list-style-image: url(img/favicon1.png);
+}
+
+.block{
+    float: left;
+    width: 33.33%;
+    border:1px lightgray solid;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.block h3{
+    text-align: center;
+}
+
+.clear-fix{
+    clear: both;
+}
+#main-block{
+    float: left;
+    width: 70%;
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color: lightgray;
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.position-box{
+   
+    width: 500px;
+    height: 200px;
+    border: 1px black solid;    
+    margin-top: 30px;
+    background-image: url(img/bgphoto.jpg);
+    color: white;
+}
+.fix-po{
+    position: fixed;
+    top: 400px;
+}
+.my-list{
+    
+}
